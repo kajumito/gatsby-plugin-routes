@@ -42,7 +42,7 @@ exports.createPagesStatefully = ({ actions, reporter, store }, { path }) => {
     const pages = store.getState().pages
     const pagePaths = [...pages.keys()]
     pagePaths.map(path => {
-      let isRoute = routes.find(route => route.path === path)
+      const isRoute = routes.find(route => route.path === path)
       if (!isRoute && path !== '/dev-404-page/') {
         deletePage({ path, component: pages.get(path).component })
       }

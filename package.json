@@ -10,7 +10,11 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "gatsby-plugin-routes",
+    "routes",
+    "routing",
+    "custom-path"
   ],
   "repository": {
     "type": "git",
