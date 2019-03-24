@@ -1,3 +1,4 @@
+// Add more validation!!
 export default route => {
   const { path, component } = route
   if (!path || !component) {
@@ -6,6 +7,5 @@ export default route => {
         See docs here -> https://www.gatsbyjs.org/plugins/gatsby-plugin-routes/
         `
   }
-
   return route
 }

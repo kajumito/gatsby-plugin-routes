@@ -1,0 +1,8 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true, "parser": "flow" }],
+    "no-undef": 0
+  }
+}
