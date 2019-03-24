@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-plugin-routes",
+  "version": "0.1.0",
+  "description": "Gatsby plugin that creates routes from configuration file.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir .",
+    "prepare": "cross-env NODE_ENV=production npm run build"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaumito/gatsby-plugin-routes.git"
+  },
+  "author": "Kasper Tontti <hi@kaspertontti.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaumito/gatsby-plugin-routes/issues"
+  },
+  "homepage": "https://github.com/kaumito/gatsby-plugin-routes/tree/readme#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "cross-env": "^5.2.0"
+  },
+  "dependencies": {
+    "chokidar": "^2.1.2",
+    "core-js": "^2.6.5"
+  }
+}
