@@ -4,7 +4,7 @@
 ![downloads](https://img.shields.io/npm/dm/gatsby-plugin-routes.svg)
 ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/gatsby-plugin-routes.svg)
 ![minified](https://img.shields.io/bundlephobia/min/gatsby-plugin-routes.svg)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)]
+![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)
 
 Allows customized route configuration for Gatsby. Defining routes from configuration allows you to create pages from anywhere and with custom path.
 
@@ -43,7 +43,7 @@ String path to the routes configuration file.
 
 ## Routes -file
 
-At routes configuration file you need to export array of `route` objects. Every object in the route -array need to have `path` and `component` fields defined.
+At routes configuration file you need to export an array of `route` objects. Every object in the route -array needs to have `path` and `component` fields defined.
 
 ### `path` (required)
 
