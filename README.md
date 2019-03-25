@@ -1,6 +1,8 @@
 # gatsby-plugin-routes
 
 ![timestamp](https://img.shields.io/date/1553413394.svg?color=g&label=created)
+![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/gatsby-plugin-routes.svg)
+![minified](https://img.shields.io/bundlephobia/min/gatsby-plugin-routes.svg)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
 Allows customized route configuration for Gatsby. Defining routes from configuration allows you to create pages from anywhere and with custom path.
