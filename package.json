@@ -18,14 +18,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaumito/gatsby-plugin-routes.git"
+    "url": "git+https://github.com/kajumito/gatsby-plugin-routes.git"
   },
   "author": "Kasper Tontti <hi@kaspertontti.fi>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaumito/gatsby-plugin-routes/issues"
+    "url": "https://github.com/kajumito/gatsby-plugin-routes/issues"
   },
-  "homepage": "https://github.com/kaumito/gatsby-plugin-routes/tree/readme#readme",
+  "homepage": "https://github.com/kajumito/gatsby-plugin-routes#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
