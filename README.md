@@ -20,6 +20,10 @@ npm install --save gatsby-plugin-routes
 
 Add the plugin to the plugins array in your `gatsby-config.js`. Then define path to your routes file with options.
 
+### `options.path` (required)
+
+String path to the routes configuration file.
+
 ```js
 // In your gatsby-config.js
 plugins: [
@@ -34,12 +38,6 @@ plugins: [
     ...
 ]
 ```
-
-## Options
-
-### `options.path` (required)
-
-String path to the routes configuration file.
 
 ## Routes -file
 
