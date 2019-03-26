@@ -2,7 +2,11 @@
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "parser": "babel-eslint",
   "rules": {
-    "prettier/prettier": ["error", { "singleQuote": true, "parser": "flow" }],
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": true, "parser": "flow", "semi": false }
+    ],
+    "semi": 0,
     "no-undef": 0,
     "no-var": 2,
     "no-console": 2,

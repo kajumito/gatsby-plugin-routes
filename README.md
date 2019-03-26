@@ -3,8 +3,8 @@
 ![timestamp](https://img.shields.io/date/1553413394.svg?color=g&label=created)
 ![downloads](https://img.shields.io/npm/dm/gatsby-plugin-routes.svg)
 ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/gatsby-plugin-routes.svg)
+![version](https://img.shields.io/github/package-json/v/kajumito/gatsby-plugin-routes.svg?color=blue)
 ![minified](https://img.shields.io/bundlephobia/min/gatsby-plugin-routes.svg)
-![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)
 
 Allows customized route configuration for Gatsby. Defining routes from configuration allows you to create pages from anywhere and with custom path.
 
@@ -53,17 +53,21 @@ React component to be displayed in defined path.
 
 ```js
 // In your routes configuration file
-const path = require('path')
+const path = require('path');
 module.exports = [
   {
     path: '/',
-    component: path.resolve(`src/containers/Home.jsx`),
+    component: path.resolve(`src/containers/Home.jsx`)
   },
   {
     path: '/order',
-    component: path.resolve(`src/containers/Order.jsx`),
+    component: path.resolve(`src/containers/Order.jsx`)
   },
-]
+  {
+    path: '/404/',
+    component: path.resolve(`src/containers/404.js`)
+  }
+];
 ```
 
 ## Contributing

@@ -1,4 +1,4 @@
-// Add more validation!!
+// Needs more validation!!
 export default route => {
   const { path, component } = route
   if (!path || !component) {
