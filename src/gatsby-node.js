@@ -9,7 +9,7 @@ exports.createPagesStatefully = ({ actions, reporter, store }, { path }) => {
     reporter.panic(
       `
       "path" is a required option for gatsby-plugin-routes
-      See docs here -> https://www.gatsbyjs.org/plugins/gatsby-plugin-routes/
+      See docs here -> https://www.gatsbyjs.org/packages/gatsby-plugin-routes/ 
       `
     )
   }
