@@ -7,21 +7,19 @@ import validateRoute from './validateRoute'
 exports.createPagesStatefully = ({ actions, reporter, store }, { path }) => {
   if (!path) {
     reporter.panic(
-      `
-      "path" is a required option for gatsby-plugin-routes
-      See docs here -> https://www.gatsbyjs.org/packages/gatsby-plugin-routes/ 
+      `"path" is a required option for gatsby-plugin-routes
+See docs here -> https://www.gatsbyjs.org/packages/gatsby-plugin-routes/ 
       `
     )
   }
 
   if (!fs.existsSync(path) || !fs.lstatSync(path).isFile()) {
     reporter.panic(
-      `
-      The file path passed to gatsby-plugin-routes does not exist on your file system:
+      `The file path passed to gatsby-plugin-routes does not exist on your file system:
 
-      ${path}
+${path}
 
-      Please pick a path to an existing routes file.
+Please pick a path to an existing routes file.
       `
     )
   }
