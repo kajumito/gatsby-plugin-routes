@@ -25,7 +25,7 @@ Please pick a path to an existing routes file.
   }
 
   const routes = require(path)
-  const { createPage, deletePage } = actions
+  const { createPage } = actions
 
   const createdRoute = route => {
     const pages = store.getState().pages
@@ -36,19 +36,7 @@ Please pick a path to an existing routes file.
     return false
   }
 
-  const checkRoutes = routes => {
-    const pages = store.getState().pages
-    const pagePaths = [...pages.keys()]
-    pagePaths.map(path => {
-      const isRoute = routes.find(route => route.path === path)
-      if (!isRoute && path !== '/dev-404-page/') {
-        deletePage({ path, component: pages.get(path).component })
-      }
-    })
-  }
-
   const createPagesFromRoutes = routes => {
-    checkRoutes(routes)
     routes.forEach(route => {
       try {
         validateRoute(route)
